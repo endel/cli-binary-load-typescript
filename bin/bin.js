@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-let registered = false
+// no need to 'register' TypeScript loaders on Bun environment.
+let registered = (typeof(Bun) === "object");
 
 const tryRegister = (pkg) => {
   if (!registered) {
