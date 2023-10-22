@@ -1,7 +1,7 @@
 {
   "name": "cli-binary-load-typescript",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "This is just a PoC evaluating how to dynamically load a TypeScript file from a executable Node.js binary.",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -11,12 +11,16 @@
   "bin": {
     "cli-binary-load-typescript": "./bin/bin.js"
   },
-  "author": "",
-  "license": "ISC",
+  "files": [
+    "dist", "bin", "README.md", "LICENSE"
+  ],
+  "author": "Endel Dreyer",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild-register": "^3.5.0"
+  },
   "devDependencies": {
     "@types/node": "^20.8.4",
-    "esbuild-register": "^3.5.0",
-    "tsx": "^3.14.0",
     "typescript": "^5.2.2"
   }
 }
