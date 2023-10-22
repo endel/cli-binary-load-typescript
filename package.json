@@ -1,6 +1,6 @@
 {
   "name": "cli-binary-load-typescript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is just a PoC evaluating how to dynamically load a TypeScript file from a executable Node.js binary.",
   "main": "index.js",
   "scripts": {
