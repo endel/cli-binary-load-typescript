@@ -1,6 +1,6 @@
 {
   "name": "cli-binary-load-typescript",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is just a PoC evaluating how to dynamically load a TypeScript file from a executable Node.js binary.",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,10 @@
   },
   "bin": {
     "cli-binary-load-typescript": "./bin/bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/endel/cli-binary-load-typescript.git"
   },
   "files": [
     "dist", "bin", "README.md", "LICENSE"
