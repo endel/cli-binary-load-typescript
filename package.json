@@ -1,0 +1,22 @@
+{
+  "name": "cli-binary-load-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cli-binary-load-typescript": "./bin/bin.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "esbuild-register": "^3.5.0",
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2"
+  }
+}
